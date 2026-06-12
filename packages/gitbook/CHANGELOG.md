@@ -1,5 +1,13 @@
 # gitbook
 
+## 0.27.1
+
+### Patch Changes
+
+- 72a1596: Fix the AI assistant panel overflowing its frame when rendering single/multi-choice question forms with long option text.
+- 77c717c: Assistant: group all of a turn's tool calls behind a single "Explored with N tools" expandable instead of rendering a separate single-item expandable for each client-side tool call.
+- ddba803: Add a page reference chip when opening the Assistant from the page action, so the assistant is informed about the page the reader is currently on.
+
 ## 0.27.0
 
 ### Minor Changes
